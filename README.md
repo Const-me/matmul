@@ -1,5 +1,4 @@
-This repo evaluates different matrix multiplication implementations given two
-large square matrices (2000-by-2000 in the following example):
+This repo evaluates different matrix multiplication implementations given two large square matrices. [Derived from this.](https://attractivechaos.wordpress.com/2016/08/28/optimizing-matrix-multiplication/)
 
 |Implementation |Long description|
 |:--------------|:---------------|
@@ -19,6 +18,7 @@ The -a0 is too slow, that's why not on the diagram.
 
 The PC configuration is Core i5-4460, 16GB RAM, Windows 10 Pro.
 The compiler is Visual Studio 2015 Update 3.
+I've tested 32 bit builds.
 
 Two differences from Linux/GCC were interesting.
 
