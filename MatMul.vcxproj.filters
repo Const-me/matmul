@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="XGetOpt\XGetopt.cpp">
+      <Filter>XGetOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\matmul-eigen.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\matmul.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="XGetOpt\XGetopt.h">
+      <Filter>XGetOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="XGetOpt">
+      <UniqueIdentifier>{1b65d552-90ae-490c-9db9-44b55b8007b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5dce3cf3-45da-4cfe-b2f2-0d305c6dc1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eigen">
+      <UniqueIdentifier>{2369d7e0-7346-4b98-a9e8-db48caf7b55a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
