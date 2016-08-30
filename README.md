@@ -23,8 +23,8 @@ I've tested 32 bit builds.
 Two differences from Linux/GCC were interesting.
 
 1. Note how hints (=manual loop unrolling) ruined the performance: Visual C++ compiler did much better job without them.
-1. Looks like generally, Microsoft’s optimizer is better. On Linux/GCC, manually optimized Eigen is 2 times faster than the best custom implementation, SSE+tiling sdot. On Windows/Visual C++, the difference is 30-40%. 
+1. Generally, Microsoft’s optimizer does much better job optimizing naïve code. On Linux/GCC and on Windows/GCC, manually optimized Eigen is 2 times faster than the best custom implementation, SSE+tiling sdot. On Windows/Visual C++, the difference is 30-40%.
+1. Single-core performance of i5-4460 (Haswell, 6M cache, up to 3.40 GHz, $180) is pretty close to that of Xeon E5-2697 v3 (Haswell, 35M Cache, up to 3.6 GHz, $2700).
 
 [looptile]: https://en.wikipedia.org/wiki/Loop_tiling
 [eigen]: http://eigen.tuxfamily.org/index.php?title=Main_Page
-
